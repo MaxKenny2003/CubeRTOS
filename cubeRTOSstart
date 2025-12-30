@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Activate your virtual environment
+# Replace 'env' with your venv folder name if different
+source env/bin/activate
+
+# Delete the CSV file if it exists
+if [ -f "all_data.csv" ]; then
+    echo "Deleting all_data.csv"
+    rm all_data.csv
+fi
+
+# Delete the data folder if it exists
+if [ -d "data" ]; then
+    echo "Deleting data/ folder"
+    rm -rf data
+fi
+
+if [ -d "data_csvs" ]; then
+    echo "Deleting data_csvs/ folder"
+    rm -rf data_csvs
+fi
+
+# clear main running JSON
+echo "{}" > main_running_data.json
+
+# Run make clean
+echo "Running make clean"
+make clean
+
+# Run make
+echo "Running make"
+make
+
+echo "Done!"

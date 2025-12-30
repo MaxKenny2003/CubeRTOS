@@ -1,0 +1,153 @@
+reboot
+hello cubesat
+temp=38.1'C
+
+               total        used        free      shared  buff/cache   available
+Mem:           416Mi       167Mi       134Mi       2.0Mi       166Mi       248Mi
+Swap:          511Mi          0B       511Mi
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             72M     0   72M   0% /dev
+tmpfs            42M  2.0M   40M   5% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           209M  8.0K  209M   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  510M   69M  442M  14% /boot/firmware
+tmpfs            42M   40K   42M   1% /run/user/1000
+
+347
+21.6875
+-------------------------
+hello cubesat
+temp=37.6'C
+
+               total        used        free      shared  buff/cache   available
+Mem:           416Mi       167Mi       134Mi       2.0Mi       167Mi       249Mi
+Swap:          511Mi          0B       511Mi
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             72M     0   72M   0% /dev
+tmpfs            42M  2.0M   40M   5% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           209M  8.0K  209M   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  510M   69M  442M  14% /boot/firmware
+tmpfs            42M   40K   42M   1% /run/user/1000
+
+347
+21.6875
+-------------------------
+hello cubesat
+temp=37.6'C
+
+               total        used        free      shared  buff/cache   available
+Mem:           416Mi       167Mi       134Mi       2.0Mi       167Mi       249Mi
+Swap:          511Mi          0B       511Mi
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             72M     0   72M   0% /dev
+tmpfs            42M  2.0M   40M   5% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           209M  8.0K  209M   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  510M   69M  442M  14% /boot/firmware
+tmpfs            42M   40K   42M   1% /run/user/1000
+
+347
+21.6875
+-------------------------
+hello cubesat
+temp=38.6'C
+
+               total        used        free      shared  buff/cache   available
+Mem:           416Mi       167Mi       134Mi       2.0Mi       167Mi       248Mi
+Swap:          511Mi          0B       511Mi
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             72M     0   72M   0% /dev
+tmpfs            42M  2.0M   40M   5% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           209M  8.0K  209M   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  510M   69M  442M  14% /boot/firmware
+tmpfs            42M   40K   42M   1% /run/user/1000
+
+347
+21.6875
+-------------------------
+hello cubesat
+temp=38.1'C
+
+               total        used        free      shared  buff/cache   available
+Mem:           416Mi       167Mi       134Mi       2.0Mi       167Mi       248Mi
+Swap:          511Mi          0B       511Mi
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             72M     0   72M   0% /dev
+tmpfs            42M  2.0M   40M   5% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           209M  8.0K  209M   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  510M   69M  442M  14% /boot/firmware
+tmpfs            42M   40K   42M   1% /run/user/1000
+
+348
+21.75
+-------------------------
+hello cubesat
+temp=38.1'C
+
+               total        used        free      shared  buff/cache   available
+Mem:           416Mi       167Mi       134Mi       2.0Mi       167Mi       248Mi
+Swap:          511Mi          0B       511Mi
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             72M     0   72M   0% /dev
+tmpfs            42M  2.0M   40M   5% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           209M  8.0K  209M   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  510M   69M  442M  14% /boot/firmware
+tmpfs            42M   40K   42M   1% /run/user/1000
+
+350
+21.875
+-------------------------
+hello cubesat
+temp=38.6'C
+
+               total        used        free      shared  buff/cache   available
+Mem:           416Mi       167Mi       134Mi       2.0Mi       167Mi       248Mi
+Swap:          511Mi          0B       511Mi
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             72M     0   72M   0% /dev
+tmpfs            42M  2.0M   40M   5% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           209M  8.0K  209M   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  510M   69M  442M  14% /boot/firmware
+tmpfs            42M   40K   42M   1% /run/user/1000
+
+351
+21.9375
+-------------------------
+hello cubesat
+temp=38.6'C
+
+               total        used        free      shared  buff/cache   available
+Mem:           416Mi       167Mi       134Mi       2.0Mi       167Mi       248Mi
+Swap:          511Mi          0B       511Mi
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             72M     0   72M   0% /dev
+tmpfs            42M  2.0M   40M   5% /run
+/dev/mmcblk0p2   29G  5.8G   22G  21% /
+tmpfs           209M  8.0K  209M   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  510M   69M  442M  14% /boot/firmware
+tmpfs            42M   40K   42M   1% /run/user/1000
+
+354
+22.125
+-------------------------

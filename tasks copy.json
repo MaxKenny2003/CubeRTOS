@@ -1,0 +1,355 @@
+{
+    "modes": [
+    {
+        "PreFlight" : [
+        {
+            "name" : "pre-flight_led.py",
+            "period" : 1000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "gps_lock.py",
+            "period" : 10000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_GPS.py",
+            "period" : 1000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_RTC.py",
+            "period" : 10000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_TMP1.py",
+            "period" : 5000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_TMP2.py",
+            "period" : 5000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_BME680.py",
+            "period" : 4000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_rm3100.py",
+            "period" : 4000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_PiStatus.py",
+            "period" : 4000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_IMU.py",
+            "period" : 4000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "eddy_pdu.py",
+            "period" : 4000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "read_reboot.py",
+            "period" : 4000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "packet_count.py",
+            "period" : 4000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+        },
+        {
+            "name" : "write_data_1_hz.py",
+            "period" : 1000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "W"
+        },
+        {
+            "name" : "ALPHA_TX_LORA.py",
+            "period" : 10000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "U"
+        }
+        ],
+        "Flight" : [
+            {
+                "name" : "test_manual_mode_switch.py",
+                "period" : 5400000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "flight_led_on.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+            "name" : "gps_lock.py",
+            "period" : 10000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+            },
+            {
+                "name" : "read_GPS.py",
+                "period" : 10000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "read_RTC.py",
+                "period" : 10000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "read_TMP1.py",
+                "period" : 5000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "read_TMP2.py",
+                "period" : 5000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "read_BME680.py",
+                "period" : 4000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "read_rm3100.py",
+                "period" : 4000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "read_PiStatus.py",
+                "period" : 4000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "read_IMU.py",
+                "period" : 4000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "eddy_pdu.py",
+                "period" : 4000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "read_reboot.py",
+                "period" : 4000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "packet_count.py",
+                "period" : 4000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "write_data.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "W"
+            },
+            {
+                "name" : "ALPHA_TX_LORA.py",
+                "period" : 10000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "U"
+            }
+        ],
+        "Recovery" : [
+            {
+            "name" : "test_manual_mode_switch.py",
+            "period" : 1800000,
+            "priority" : 0,
+            "released" : 1,
+            "enabled" : true,
+            "task_type" : "R"
+            },
+            {
+                "name" : "landed_led_on.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "test3.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            }
+        ]
+    }
+    ]
+}
+
+
+
+{
+    "modes": [
+    {
+        "PreFlight" : [
+            {
+                "name" : "pycamera_RXTX.py",
+                "period" : 300,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "D"
+            },
+            {
+                "name" : "transmit_data.py",
+                "period" : 100,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "D"
+            }
+        ],
+        "Flight" : [
+            {
+                "name" : "test_manual_mode_switch.py",
+                "period" : 5000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "flight_led_on.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "test2.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            }
+        ],
+        "Recovery" : [
+            {
+                "name" : "landed_led_on.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "test3.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            }
+        ]
+    }
+    ]
+}

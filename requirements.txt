@@ -1,0 +1,17 @@
+adafruit-circuitpython-busdevice
+adafruit-circuitpython-register
+adafruit-circuitpython-bme680
+adafruit-circuitpython-rfm9x
+adafruit-circuitpython-rm3100
+circup
+adafruit-blinka 
+sparkfun-ublox-gps
+sparkfun-qwiic-icm20948
+sparkfun-qwiic-rv8803
+smbus
+smbus2
+spidev
+matplotlibs
+json
+pynmeagps
+pyubx2

@@ -10,26 +10,27 @@ The project includes a custom Makefile to simplify the build process. Rather tha
 
 The scheduler dynamically allocates tasks and operating modes at runtime using the task.json configuration file. This allows the system behavior to be modified without recompilation. The format of the file is shown below:
 
+```json
 "modes": [
     {
         "PreFlight" : [
-        {
-            "name" : "task1.py",
-            "period" : 1000,
-            "priority" : 0,
-            "released" : 1,
-            "enabled" : true,
-            "task_type" : "R"
-        },
-        {
-            "name" : "task2.py",
-            "period" : 10000,
-            "priority" : 0,
-            "released" : 1,
-            "enabled" : true,
-            "task_type" : "W"
-        }
-        ]
+            {
+                "name" : "task1.py",
+                "period" : 1000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "R"
+            },
+            {
+                "name" : "task2.py",
+                "period" : 10000,
+                "priority" : 0,
+                "released" : 1,
+                "enabled" : true,
+                "task_type" : "W"
+            }
+        ],
         "Flight" : [
             {
                 "name" : "task1.py",
@@ -42,7 +43,7 @@ The scheduler dynamically allocates tasks and operating modes at runtime using t
         ]
     }
 ]
-
+```
 As shown above, multiple modes of operation can be defined, each containing the same or different sets of tasks. The maximum number of modes and tasks per mode is ultimately constrained by the underlying hardware. A task.json file used during the mission is included for reference, based on deployment on a Raspberry Pi Zero.
 
 Most fields in task.json are self-describing. The only non-obvious field is task_type, which defines how the task is scheduled and what role it plays in the system.
